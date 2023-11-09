@@ -5,38 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>ERN</title>
+    <title>OASIS CAPITALS</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
 
         <header class="header">
             <div class="header__container _container">
-                <a href="#" class="header__logo">
+                <a href="index.html" class="header__logo">
                     <img src="img/logo-icon.svg" alt="logo">
                     <div class="header__logo_f">
                         OASIS
                         <span class="header__logo_cap">CAPITALS</span>
                     </div>
                 </a>
-                <nav class="header__menu menu">
+                <nav class="header__menu menu nav">
                     <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">ДОМОЙ</a>
+                        <li class="menu__item menu__item-home">
+                            <a href="#secfirst" class="menu__link">ДОМОЙ</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Юрисдикция</a>
+                        <li class="menu__item menu__item-jurisdiction">
+                            <a href="#jurisdiction" class="menu__link">Юрисдикция</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">ПОРТФОЛИО</a>
+                        <li class="menu__item menu__item-portfolio">
+                            <a href="#portfolio" class="menu__link">ПОРТФОЛИО</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">О НАС</a>
+                        <li class="menu__item menu__item-about">
+                            <a href="#about" class="menu__link">О НАС</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">КОНТАКТЫ</a>
+                        <li class="menu__item menu__item-contacts">
+                            <a href="#contacts" class="menu__link">КОНТАКТЫ</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,7 +49,7 @@
             </div>
         </header>
 
-        <section class="secfirst">
+        <section class="secfirst" id="secfirst">
             <div class="secfirst__container _container">
                 <h1 class="secfirst__title">
                     <span class="white">OASIS</span>
@@ -57,7 +59,8 @@
                 <h2 class="secfirst__subtitle">
                     Успешные инвестиции - ваше светлое будущее
                 </h2>
-                <a href="" class="secfirst__button"></a>
+                <a href="#" class="secfirst__button"></a>
+                <!-- <button class="secfirst__button"></button> -->
                 <div class="back-left"></div>
                 <div class="back-right"></div>
                 <div class="back-left-sub"></div>
@@ -123,7 +126,7 @@
             </div>
         </div>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__container _container">
                 <!-- <div class="round-image-with-ellipse">
                     <div class="about__image round-image-with-ellipse__image"></div>
@@ -134,7 +137,7 @@
                 <img src="img/testaaaa.png" alt="" class="about__image">
                 <div class="about__text">
                     <div class="about__text__ph">кто мы</div>
-                    <div class="about__text__h"><span class="blue">OASIS CAPITALS</span> - ЭТО КОМАНДА ЛЮДЕЙ У КОТОРЫХ ЕСТЬ ЦЕЛЬ И НЕТ ГРАНИЦ</div>
+                    <div class="about__text__h"><span class="blue">OASIS CAPITALS</span> - ЭТО КОМАНДА ЛЮДЕЙ У КОТОРЫХ ЕСТЬ ЦЕЛЬ<br> И НЕТ ГРАНИЦ</div>
                     <div class="about__text__p">Наша команда это профессионалы в сфере трейдинга венчурных и классических инвестиций. Нашей главной целью и миссией является создание возможностей заработка для инвесторов и развитие сферы инвестиций.</div>
                     <!-- <div class="description__button">
                         <a href="" class="description__a">Learn more</a>
@@ -206,7 +209,7 @@
         </div>
 
 
-        <section class="trust">
+        <section class="trust" id="jurisdiction">
             <div class="trust__container _container">
                 <!-- <div class="round-image-with-ellipse">
                     <div class="round-image-with-ellipse__image _img-trust"></div>
@@ -227,7 +230,7 @@
         </section>
         
 
-        <div class="plans">
+        <div class="plans" id="box-plans">
             <div class="back-left-plans"></div>
             <div class="back-right-plans"></div>
             <div class="plans _container">
@@ -246,9 +249,7 @@
                             <li class="plan__charact__li">
                                 <img src="img/li-3.svg" alt="">Eжемесячные выплаты</li>
                         </ul>
-                        <a href="" class="plan__button">узнать больше
-                            <img src="img/right.svg" alt="">
-                        </a>
+                        <a href="trail.html" class="plan__button">узнать больше</a>
                     </div>
                     <div class="plans__all__plan plan">
                         <div class="plan__name">Starter</div>
@@ -261,9 +262,7 @@
                             <li class="plan__charact__li">
                                 <img src="img/li-3.svg" alt="">Лучший выбор для новичка</li>
                         </ul>
-                        <a href="" class="plan__button">узнать больше
-                            <img src="img/right.svg" alt="">
-                        </a>
+                        <a href="starter.html" class="plan__button">узнать больше</a>
                     </div>
                     <div class="plans__all__plan plan">
                         <div class="plan__name">Basic</div>
@@ -276,9 +275,7 @@
                             <li class="plan__charact__li">
                                 <img src="img/li-3.svg" alt="">Персональный менеджер</li>
                         </ul>
-                        <a href="" class="plan__button">уЗНАТЬ БОЛЬШЕ
-                            <img src="img/right.svg" alt="">
-                        </a>
+                        <a href="basic.html" class="plan__button">уЗНАТЬ БОЛЬШЕ</a>
                     </div>
                     <div class="plans__all__plan plan">
                         <div class="plan__name">Premium</div>
@@ -291,9 +288,7 @@
                             <li class="plan__charact__li">
                                 <img src="img/li-3.svg" alt="">Индивидуальная стратегия</li>
                         </ul>
-                        <a href="" class="plan__button">Узнать больше
-                            <img src="img/right.svg" alt="">
-                        </a>
+                        <a href="premium.html" class="plan__button">Узнать больше</a>
                     </div>
                 </div>
             </div>
@@ -312,7 +307,7 @@
             </div>
         </a>
 
-        <div class="results _container">
+        <div class="results _container" id="portfolio">
             <div class="results__tech">
                 <div class="team__text__ph">PORTFOLIO</div>
                 <div class="results__tech__h">Наши <span class="blue">результаты</span> говорят сами за себя</div>
@@ -333,7 +328,7 @@
                     <h4 class="case__name">Наши результаты инвест портфеля за год</h4>
                     <div class="case__date">By Admin - 12 Oct 2023</div>
                     <p class="case__description">Получите доступ к нашей статистике...</p>
-                    <a class="case__button">читать блог</a>
+                    <a href="page-results.html" class="case__button">читать блог</a>
                 </div>
                 <div class="results__case case case2">
                     <div class="case__photo">
@@ -347,7 +342,7 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="footer__container _container">
                 <div class="footer__info">
                     <div class="footer__info__links links">
@@ -372,11 +367,11 @@
                         <ul class="contacts__list">
                             <li class="contacts__list__li">
                                 <img src="img/email.svg" alt="">
-                                ERN.com
+                                Oasis-capitals.com
                             </li>
                             <li class="contacts__list__li">
                                 <img src="img/location.svg" alt="">
-                                Huevo-kukuevo, Struma St, Be'er Sheva, Israel
+                                Bratislava, Slovakia
                             </li>
                             <li class="contacts__list__li">
                                 <img src="img/call.svg" alt="">
